@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/2761c47128.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/2761c47128.js" crossorigin="anonymous"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e5dfdf;
+            overflow-x: hidden;
+        }
+
+        .Logo {
+            width: 130px;
+            font-size: 32px;
+            color: #0084ff;
+            font-weight: 800;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .stories {
+            margin: 0;
+            /* font-weight: 500; */
+            font-style: italic;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .Explore {
+            /* text-align: cente */
+            color: #000;
+            margin-left: 52px;
+            margin-top: 16px;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .headerContent {
+            display: flex;
+        }
+
+        .Trend {
+            font-size: 30px;
+            /* margin-left: 25px; */
+            font-weight: 600;
+        }
+
+        .categ {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            /* justify-content: space-between; */
+        }
+
+        .active {
+            padding: 5px 14px;
+            color: #dfdbdb;
+            background-color: #0084ff;
+            width: auto;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 14px;
+            margin: 5px;
+        }
+
+        .Category {
+            padding: 5px 14px;
+            color: #0084ff;
+            background-color: #dfdbdb;
+            width: auto;
+            border: 1px solid #0084ff;
+            Border-radius: 15px;
+            cursor: pointer;
+            margin-bottom: 14px;
+            margin: 5px;
+        }
+
+        .container {
+            width: 75%;
+            margin: auto;
+            padding: auto;
+        }
+
+        .element {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        footer {
+            background-color: #172146;
+            padding: 30px 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: #fff; padding: 16px 78px;">
+        <div class="headerContent">
+            <div>
+                <div class="Logo">EDYODA</div>
+                <div class="stories">Stories</div>
+            </div>
+            <div class="Explore">Explore Categories <i style="padding-left: 8px;"
+                    class="fas fa-chevron-circle-down"></i></div>
+        </div>
+    </header>
+    <div class="container">
+        <h3 class="Trend">Trending Posts</h3>
+        <span><i style="color: #0084ff;" class="fa-solid fa-filter"></i></span><span style="padding-left: 8px;">Filter
+            by Category</span>
+        <div class="categ">
+            <div class="active">All</div>
+            <div class="Category">Artificial Intelligence</div>
+            <div class="Category">Cloud Computing</div>
+            <div class="Category">DevOps</div>
+            <div class="Category">Programming Language</div>
+            <div class="Category">Mobile Application Development</div>
+            <div class="Category">Technology and Tools</div>
+            <div class="Category">Get a Job in a Tech Company</div>
+            <div class="Category">Others</div>
+        </div>
+        <div class="element">
+            <div class="card" style="width: 32%; margin-bottom: 14px;">
+                <img src="
+                https://edyoda.s3.amazonaws.com/media/blog-images/how-humans-tame-the-world-with-artificial-intelligence.jpg"
+                class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">How Humans Tame the World with Artificial Intelligence</h5>
+                    <p class="card-text">Humans evolution and usage of technology have been a constant feature throughout the history of Humanity. So evolution and tech have always been a big constant..</p>
+                </div>
+            </div>
+            <div class="card" style="width: 32%; margin-bottom: 14px;">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn-artificial-intelligence.jpeg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Getting started with Artificial Intelligence</h5>
+                    <p class="card-text">We’re rapidly moving towards a day and age where almost everything can be controlled by machines and one of the most revolutionary moves has been the advent of artificial intelligence..</p>
+                </div>
+            </div>
+            <div class="card" style="width: 32%; margin-bottom: 14px;">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/overview-of-natural-language-processing-in-artificial-intelligence.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Overview of Natural Language Processing in Artificial Intelligence</h5>
+                    <p class="card-text">Over the last few years, Artificial Intelligence has made a prominent space as it uses technology that has made machines capable to perform tasks as humans do..</p>
+                </div>
+            </div>
+            <div class="card" style="width: 32%; margin-bottom: 14px;">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/an-introduction-to-green-cloud-computing.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">An Introduction to Green Cloud Computing</h5>
+                    <p class="card-text">Sustainability has been gaining importance since the last two decade because of the extensive exploitation of natural resources by mankind. It has been noted that during the last decade..</p>
+                </div>
+            </div>
+            <div class="card" style="width: 32%; margin-bottom: 14px;">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/EdYoda_Admission_Test_Image_small.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Your Guide to EdYoda Admission Test</h5>
+                    <p class="card-text">All about EdYoda admissions test and how to avail the scholarships up to INR 2,50,000..</p>
+                </div>
+            </div>
+            <div class="card" style="width: 32%; margin-bottom: 14px;">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/MicrosoftTeams-image_1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">All about AITEST and how to avail rewards up to INR 1 Crore</h5>
+                    <p class="card-text">Ever since 2019, after a solid hit from the falling rate of economic growth, the job market seems to be challenging. With the technology-enabled disruption continuing to play its part..</p>
+                </div>
+                
+            </div>
+            <div class="card" style="width: 32%; margin-bottom: 14px;">
+                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1.png" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Practical Machine Learning with Python and Keras</h5>
+                    <p class="card-text">Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to “learn” (e.g., progressively improve performance on a specific task) from data..</p>
+                </div>
+        </div>
+        <div class="card" style="width: 32%; margin-bottom: 14px;">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/what_is_isa_blog_1.png" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">What is Income Share Agreement?</h5>
+                <p class="card-text">The term Income Share Agreement has been around for a long time since 1955 to be precise. Surprised, eh? It was first introduced by Milton Friedman, an American economist..</p>
+            </div>
+    </div>
+    <div class="card" style="width: 32%; margin-bottom: 14px;">
+        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">What is Web Scraping?</h5>
+            <p class="card-text">Simply put, web scraping is one of the tools developers use to gather and analyze information from the Internet.Some websites and platforms offer application programming interfaces (APIs) which we can use to access information in a structured way..</p>
+        </div>
+</div>
+    </div>
+    <footer>
+        
+    </footer>
+
+</body>
+
+</html>
